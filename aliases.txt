@@ -1,0 +1,18 @@
+# Define shell functions instead of aliases
+initwifi() { sudo /home/kali/scripts/initwifi.sh; }
+cleanupwifi() { sudo /home/kali/scripts/cleanupwifi.sh; }
+google-phisher() { sudo /home/kali/scripts/google-phisher.sh; }
+swapfile() { sudo /home/kali/scripts/swapfile.sh; }
+eviltwin() { sudo /home/kali/scripts/eviltwin.sh; }
+hotspot() { sudo systemctl restart hotspot; }
+phish() { sudo /home/kali/scripts/phisher.sh; }
+homewifi() {sudo /home/kali/scripts/homewifi.sh; }
+phisher() { sudo /home/kali/scripts/wifiphisher.sh; }
+killspot() { sudo /home/kali/scripts/killspot.sh; }
+alfastart() { sudo /home/kali/scripts/alfastart.sh; }
+alfagoogle() { sudo /home/kali/scripts/alfagoogle.sh; }
+paris-phisher() { sudo /home/kali/scripts/paris-phisher.sh; }
+caesars() { sudo /home/kali/scripts/caesars-phisher.sh; }
+byewifi() { sudo /home/kali/scripts/byewifi.sh; }
+palms() { sudo /home/kali/scripts/palms.sh; }
+spot() { sudo /home/kali/scripts/spot.sh; }
