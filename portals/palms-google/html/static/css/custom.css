@@ -4,13 +4,13 @@
     .login-container {
         width: 436px !important;
         margin: auto !important;
-        margin-top: 30px !important;
-		height: 625px !important;
+        margin-top: 20px !important;
+		height: 580px !important;
     }
 
     .login-content {
-      padding-top: 10px !important;
-        padding-bottom: 10px !important;
+      padding-top: 30px !important;
+      padding-bottom: 10px !important;
     }
 }
 
@@ -20,7 +20,7 @@ html, body {
 }
 
 html, body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'fieldwork', sans-serif;
 }
 
 .login-container {
@@ -38,9 +38,10 @@ html, body {
 }
 
 .g-h1 {
-    padding-top: 15px;
-    color: #00456C;
-    font-weight: bold;
+    padding-top: 10px;
+    color: #C4A35B;
+    font-family: 'termina';
+
 }
 
 .g-h1, .g-h2 {
@@ -82,21 +83,21 @@ html, body {
 .g-legend {
     font-weight: 600;
     font-size: 14px;
-    color: #00456C;
+    color: #1F1F1F;
     margin-top: 15px;
-	font-family: 'open-sans';
+	font-family: 'termina';
 	margin-left: 5px;
 }
 
 .p {
     font-size: 14px;
     color: #5f6368;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     margin-left: 5px;
 }
 
 .login-priv {
-    margin-top: 32px;
+    margin-top: 35px;
 }
 
 .login-priv .g-legend {
@@ -104,7 +105,7 @@ html, body {
 }
 
 .login-nav {
-    margin-top: 32px;
+    margin-top: 35px;
     display: flex;
 }
 
@@ -113,18 +114,19 @@ html, body {
     line-height: 35px;
     text-align: center;
     border-radius: 4px;
-    background-color: #00456C;
-	font-family: 'open-sans';
+    background-color: #E2C76B;
+	font-family: 'termina';
   color: #fff;
   border-style: solid;
-  border-color: #00456C;
+  border-color: #E2C76B;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: .25px;
 }
 
 .gbtn-primary:hover {
-    background-color: #E2C76B;
+    background-color: #C4A35B;
+    border-color: #C4A35B;
     transition: 0.2s;
     transition-delay: 0.1s;
     transition-timing-function: ease;
@@ -133,9 +135,8 @@ html, body {
 .gbtn-label {
     color: white;
     font-weight: 400;
-	font-family: 'open-sans';
+	font-family: 'termina';
 	font-size: 14px;
-	font-weight: bold;
 }
 
 #logo {
@@ -144,6 +145,15 @@ html, body {
     width: 75px;
     float: none;
     position: relative;
+}
+
+#palms-logo {
+    margin: 0 auto;
+    display: table;
+    width: 75px;
+    float: none;
+    position: relative;
+    padding-bottom: 10px;
 }
 
 .flamingo-logo {
@@ -207,11 +217,23 @@ html, body {
 }
 
 .coh-image.coh-ce-cpt_site_footer-15f63533.coh-image-responsive-xl {
-  padding: 20px;
+  padding: 10px;
   margin-top: 0;
-  height: 165px;
+  height: 125px;
   margin-block-end: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   width: 100%;
-  background-color: #00456C;
+  background-color: #1F1F1F;
 }
+
+.palms-logo-img {
+  padding: 15px;
+  margin-top: 0;
+  padding-top: 15px;
+  height: 135px;
+  margin-block-end: 15px;
+  margin-bottom: 0px;
+  width: 100%;
+  background-color: #1F1F1F;
+}
+
